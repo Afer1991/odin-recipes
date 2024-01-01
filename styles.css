@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  margin: 0;
+}
+
 * {
   background-color: #bdbdbd;
   font-family: "Helvetica", sans-serif;
@@ -5,6 +9,21 @@
 
 h1 {
   text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 5%;
+  margin: 10px auto;
+  display: block;
+}
+
+ul {
+  margin-top: 32px;
 }
 
 li {
